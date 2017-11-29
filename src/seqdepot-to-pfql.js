@@ -15,7 +15,6 @@ const log = bunyan.createLogger({
 const parseDas_ = (input) => {
 	for (let i = 0; i < input.t.das.length; i++)
 		input.t.das[i] = ['TM'].concat(input.t.das[i])
-	console.log(input.t.das)
 }
 
 module.exports = (input) => {

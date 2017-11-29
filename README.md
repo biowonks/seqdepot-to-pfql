@@ -9,8 +9,8 @@ $ npm install seqdepot-to-pfql
 
 ## Usage
 ```javascript
-const seqdepot-to-pfql = require('seqdepot-to-pfql')
-const pfqlCompatible = seqdepot-to-pfql(SeqDepotOutput)
+const seqdepot2pfql = require('seqdepot-to-pfql')
+const pfqlCompatible = seqdepot2pfql(SeqDepotOutput)
 ```
 
 ## SeqDepot tools supported
