@@ -3,9 +3,9 @@
 
 const expect = require('chai').expect
 
-const seqdepot2Pfql = require('./seqdepot2Pfql')
+const seqdepot-to-pfql = require('./seqdepot-to-pfql')
 
-describe('seqdepot2Pfql', function() {
+describe('seqdepot-to-pfql', function() {
 	it('should parse das correctly', function() {
 		const input = {
 			t: {
@@ -25,7 +25,7 @@ describe('seqdepot2Pfql', function() {
 			}
 		}
 
-		const output = seqdepot2Pfql(input)
+		const output = seqdepot-to-pfql(input)
 		expect(output).eql(expected)
 	})
 })
